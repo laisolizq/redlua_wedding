@@ -8,7 +8,7 @@ export default function Home() {
         {/* Selector de idioma */}
         <div className="absolute right-6 top-6 z-20 text-sm tracking-[0.15em]">
           <a
-            href="/"
+            href="/redlua_wedding/"
             className="transition-opacity hover:opacity-60"
           >
             CAT
@@ -17,7 +17,7 @@ export default function Home() {
           <span className="mx-2 opacity-40">|</span>
 
           <a
-            href="/es"
+            href="/redlua_wedding/es/"
             className="font-semibold text-[var(--pink)]"
           >
             ES
@@ -34,11 +34,11 @@ export default function Home() {
         <img
           src="/redlua_wedding/sakura/ChatGPT Image Sep 26, 2026, 06_44_55 PM-4.png"
           alt=""
-          className="pointer-events-none absolute bottom-0 right-0 w-[70%] max-w-[380px] translate-x-[18%] translate-y-[12%] rotate-[340deg] opacity-50"
+          className="pointer-events-none absolute bottom-0 right-0 w-[55%] max-w-[380px] translate-x-[18%] translate-y-[12%] rotate-[330deg] opacity-50"
         />
 
-        <div className="relative z-10 flex max-w-xl flex-col items-center">
-          <p className="mb-8 text-sm uppercase tracking-[0.35em] text-[var(--pink)]">
+        <div className="relative z-10 flex max-w-xl -translate-y-6 flex-col items-center">
+          <p className="mb-6 text-sm uppercase tracking-[0.35em] text-[var(--pink)]">
             ¡NOS CASAMOS!
           </p>
 
@@ -46,13 +46,13 @@ export default function Home() {
             Esteve &amp; Laia
           </h1>
 
-          <div className="my-8 h-px w-16 bg-[var(--pink)]" />
+          <div className="my-4 h-px w-16 bg-[var(--pink)]" />
 
           <p className="text-2xl tracking-[0.12em]">
             24 · 04 · 2027
           </p>
 
-          <p className="mt-3 text-xl italic">
+          <p className="mt-3 text-2xl italic">
             El Castell de Papiol
           </p>
 
@@ -97,8 +97,8 @@ export default function Home() {
             </p>
 
             <p className="mt-5 text-lg leading-relaxed">
-              Por eso será un evento de una tarde: con una ceremonia, una
-              merienda y un rato para estar todos juntos. ¡No os esperéis un
+              Es por eso que será un evento de una tarde: con una ceremonia,
+              una merienda y un rato para estar todos juntos. ¡No esperéis un
               <i>bodorrio</i> convencional!
             </p>
           </div>
@@ -143,63 +143,126 @@ export default function Home() {
           </p>
 
           {/* Timeline */}
-          <div className="mx-auto mt-16 max-w-4xl px-4">
-            <div className="relative">
-              {/* Carretera */}
-              <div className="absolute left-[12.5%] right-[12.5%] top-4 hidden h-px bg-[var(--pink)] opacity-40 sm:block" />
+          <div className="mx-auto mt-16 max-w-5xl px-4">
 
-              <div className="grid grid-cols-2 gap-y-12 sm:grid-cols-4 sm:gap-0">
+            {/* MOBILE */}
+            <div className="flex flex-col items-center sm:hidden">
+
+              {/* Recepción */}
+              <div className="text-center">
+                <p className="text-2xl tracking-[0.12em] opacity-70">
+                  16.30
+                </p>
+
+                <p className="mt-2 font-[var(--font-allura)] text-4xl text-[var(--pink)]">
+                  Recepción
+                </p>
+              </div>
+
+              <div className="my-7 h-10 w-px border-l border-dashed border-[var(--pink)] opacity-50" />
+
+              {/* Ceremonia */}
+              <div className="text-center">
+                <p className="font-[var(--font-allura)] text-4xl text-[var(--pink)]">
+                  Ceremonia
+                </p>
+              </div>
+
+              <div className="my-7 h-10 w-px border-l border-dashed border-[var(--pink)] opacity-50" />
+
+              {/* Merienda */}
+              <div className="text-center">
+                <p className="font-[var(--font-allura)] text-4xl text-[var(--pink)]">
+                  Merienda
+                </p>
+              </div>
+
+              <div className="my-7 h-10 w-px border-l border-dashed border-[var(--pink)] opacity-50" />
+
+              {/* Final */}
+              <div className="text-center">
+                <p className="text-2xl tracking-[0.12em] opacity-70">
+                  21.00
+                </p>
+
+                <p className="mt-2 font-[var(--font-allura)] text-4xl text-[var(--pink)]">
+                  Final
+                </p>
+              </div>
+            </div>
+
+            {/* DESKTOP */}
+            <div className="relative hidden sm:block">
+
+              {/* Línea central */}
+              <div className="absolute left-[10%] right-[10%] top-[4.5rem] border-t border-dashed border-[var(--pink)] opacity-40" />
+
+              <div className="relative grid grid-cols-4">
+
                 {/* Recepción */}
-                <div className="relative text-center">
-                  <div className="mx-auto flex h-8 w-8 items-center justify-center rounded-full border border-[var(--pink)] bg-[var(--cream)]">
-                    <div className="h-2.5 w-2.5 rounded-full bg-[var(--pink)]" />
+                <div className="flex flex-col items-center text-center">
+                  <div className="flex h-7 items-center justify-center">
+                    <p className="text-2xl tracking-[0.12em] opacity-70">
+                      16.30
+                    </p>
                   </div>
 
-                  <p className="mt-4 font-[var(--font-allura)] text-4xl text-[var(--pink)]">
-                    Recepción
-                  </p>
+                  <div className="relative z-10 my-6 flex h-5 w-5 items-center justify-center bg-[var(--cream-dark)]">
+                    <span className="text-xs text-[var(--pink)]">✦</span>
+                  </div>
 
-                  <p className="mt-1 text-lg">
-                    16.30
+                  <p className="font-[var(--font-allura)] text-4xl text-[var(--pink)]">
+                    Recepción
                   </p>
                 </div>
 
                 {/* Ceremonia */}
-                <div className="relative text-center">
-                  <div className="mx-auto flex h-8 w-8 items-center justify-center rounded-full border border-[var(--pink)] bg-[var(--cream)]">
-                    <div className="h-2.5 w-2.5 rounded-full bg-[var(--pink)]" />
+                <div className="flex flex-col items-center text-center">
+                  <div className="flex h-7 items-center justify-center">
+                    {/* Espacio reservado para la hora */}
                   </div>
 
-                  <p className="mt-4 font-[var(--font-allura)] text-4xl text-[var(--pink)]">
+                  <div className="relative z-10 my-6 flex h-5 w-5 items-center justify-center bg-[var(--cream-dark)]">
+                    <span className="text-xs text-[var(--pink)]">✦</span>
+                  </div>
+
+                  <p className="font-[var(--font-allura)] text-4xl text-[var(--pink)]">
                     Ceremonia
                   </p>
                 </div>
 
                 {/* Merienda */}
-                <div className="relative text-center">
-                  <div className="mx-auto flex h-8 w-8 items-center justify-center rounded-full border border-[var(--pink)] bg-[var(--cream)]">
-                    <div className="h-2.5 w-2.5 rounded-full bg-[var(--pink)]" />
+                <div className="flex flex-col items-center text-center">
+                  <div className="flex h-7 items-center justify-center">
+                    {/* Espacio reservado para la hora */}
                   </div>
 
-                  <p className="mt-4 font-[var(--font-allura)] text-4xl text-[var(--pink)]">
+                  <div className="relative z-10 my-6 flex h-5 w-5 items-center justify-center bg-[var(--cream-dark)]">
+                    <span className="text-xs text-[var(--pink)]">✦</span>
+                  </div>
+
+                  <p className="font-[var(--font-allura)] text-4xl text-[var(--pink)]">
                     Merienda
                   </p>
                 </div>
 
                 {/* Final */}
-                <div className="relative text-center">
-                  <div className="mx-auto flex h-8 w-8 items-center justify-center rounded-full border border-[var(--pink)] bg-[var(--cream)]">
-                    <div className="h-2.5 w-2.5 rounded-full bg-[var(--cream)]" />
+                <div className="flex flex-col items-center text-center">
+                  <div className="flex h-7 items-center justify-center">
+                    <p className="text-2xl tracking-[0.12em] opacity-70">
+                      21.00
+                    </p>
                   </div>
 
-                  <p className="mt-4 font-[var(--font-allura)] text-4xl text-[var(--pink)]">
+                  <div className="relative z-10 my-6 flex h-5 w-5 items-center justify-center bg-[var(--cream-dark)]">
+                    <span className="text-xs text-[var(--pink)]">✦</span>
+                  </div>
+
+                  <p className="font-[var(--font-allura)] text-4xl text-[var(--pink)]">
                     Final
                   </p>
-
-                  <p className="mt-1 text-lg">
-                    21.00
-                  </p>
                 </div>
+
               </div>
             </div>
           </div>
@@ -273,8 +336,8 @@ export default function Home() {
 
               <p className="mt-3 leading-relaxed opacity-80">
                 El <i>Dress code</i> que hemos asignado es <i>Smart casual</i>.
-                Nuestra idea es una vestimenta un poco arreglada pero informal
-                y cómoda. Como os podríais poner para ir a una oficina donde
+                La idea es una vestimenta un poco arreglada pero informal y
+                cómoda. Como os podríais poner para ir a una oficina donde
                 queréis causar buena impresión.
               </p>
 
@@ -294,7 +357,7 @@ export default function Home() {
               <p className="mt-3 leading-relaxed opacity-80">
                 En cuanto al calzado, que sea CÓMODO. El Castell de Papiol
                 tiene mucha historia y caminar por allí podría resultar una
-                prueba del <i>Gran Prix</i>. Zapatillas, zapatos... todo es
+                prueba del <i>Gran Prix</i>. Bambas, zapatos... todo es
                 bienvenido.
               </p>
             </div>
@@ -307,7 +370,7 @@ export default function Home() {
 
               <p className="mt-3 leading-relaxed opacity-80">
                 En cuanto al alojamiento, si es necesario nos pondremos en
-                contacto con vosotros, o nos podéis preguntar vosotros mismos
+                contacto con vosotros, o podéis preguntarnos vosotros mismos
                 para encontrar la mejor opción.
               </p>
             </div>
@@ -377,6 +440,7 @@ export default function Home() {
                 en efectivo ese día o los días previos.
               </p>
             </div>
+
           </div>
         </div>
       </section>
@@ -388,7 +452,7 @@ export default function Home() {
         <img
           src="/redlua_wedding/sakura/ChatGPT Image Sep 26, 2026, 06_44_52 PM-1.png"
           alt=""
-          className="pointer-events-none absolute bottom-0 left-1/5 w-[500px] max-w-none -translate-x-1/2 translate-y-[45%] opacity-30"
+          className="pointer-events-none absolute bottom-0 left-1/5 w-[300px] max-w-none -translate-x-1/2 translate-y-[30%] rotate-[35deg] opacity-30"
         />
 
         <div className="relative z-10 flex flex-col items-center">
@@ -403,12 +467,6 @@ export default function Home() {
           <p className="mt-2 font-[var(--font-allura)] text-4xl">
             Esteve &amp; Laia
           </p>
-
-          <img
-            src="/logo_el_negre.png"
-            alt=""
-            className="mx-auto mt-5 w-10"
-          />
         </div>
       </footer>
     </main>
