@@ -5,11 +5,11 @@ export default function Home() {
           HERO
       ========================== */}
       <section className="relative flex min-h-screen flex-col items-center justify-center px-6 py-16 text-center">
-        {/* Selector d'idioma */}
+        {/* Selector de idioma */}
         <div className="absolute right-6 top-6 z-20 text-sm tracking-[0.15em]">
           <a
             href="/"
-            className="font-semibold text-[var(--pink)]"
+            className="transition-opacity hover:opacity-60"
           >
             CAT
           </a>
@@ -18,7 +18,7 @@ export default function Home() {
 
           <a
             href="/es"
-            className="transition-opacity hover:opacity-60"
+            className="font-semibold text-[var(--pink)]"
           >
             ES
           </a>
@@ -39,7 +39,7 @@ export default function Home() {
 
         <div className="relative z-10 flex max-w-xl flex-col items-center">
           <p className="mb-8 text-sm uppercase tracking-[0.35em] text-[var(--pink)]">
-            ENS CASEM!
+            ¡NOS CASAMOS!
           </p>
 
           <h1 className="font-[var(--font-allura)] text-7xl leading-none text-[var(--text)] sm:text-8xl">
@@ -60,7 +60,7 @@ export default function Home() {
             href="#el-dia"
             className="mt-12 rounded-full border border-[var(--pink)] px-8 py-3 text-lg tracking-[0.08em] text-[var(--pink)] transition-colors duration-300 hover:bg-[var(--pink)] hover:text-white"
           >
-            Descobreix el nostre dia
+            Descubre nuestro día
           </a>
         </div>
 
@@ -70,36 +70,36 @@ export default function Home() {
       </section>
 
       {/* =========================
-          INTRODUCCIÓ + FOTO
+          INTRODUCCIÓN + FOTO
       ========================== */}
       <section className="relative px-6 py-28">
         <div className="mx-auto grid max-w-5xl items-center gap-12 md:grid-cols-2">
           <div className="text-center md:text-left">
             <p className="font-[var(--font-allura)] text-5xl text-[var(--pink)]">
-              Benvinguts!
+              ¡Bienvenidos!
             </p>
 
             <p className="mt-8 text-lg leading-relaxed">
-              Ha arribat el dia de celebrar un esdeveniment molt important
-              per a nosaltres, i ens encantaria fer-ho amb tots vosaltres.
+              Ha llegado el día de celebrar un acontecimiento muy importante
+              para nosotros, y nos encantaría hacerlo con todos vosotros.
             </p>
 
             <p className="mt-5 text-lg leading-relaxed">
-              Com bé sabeu, som una parella una mica &quot;peculiar&quot;,
-              així que el nostre casament, com no podia ser d&apos;una altra
-              manera, no serà tradicional.
+              Como bien sabéis, somos una pareja un poco &quot;peculiar&quot;,
+              así que nuestra boda, como no podía ser de otra manera, no será
+              tradicional.
             </p>
 
             <p className="mt-5 text-lg leading-relaxed">
-              Hem decidit fer una celebració curta i emotiva, on compartirem
-              amb les persones que més estimem una estoneta per recordar
-              moments i celebrar la nostra unió.
+              Hemos decidido hacer una celebración corta y emotiva, donde
+              compartiremos con las personas que más queremos un ratito para
+              recordar momentos y celebrar nuestra unión.
             </p>
 
             <p className="mt-5 text-lg leading-relaxed">
-              És per això que serà un esdeveniment d&apos;una tarda: amb una
-              cerimònia, un berenar i una estona per estar tots junts.
-              No us espereu un <i>bodorrio</i> convencional!
+              Por eso será un evento de una tarde: con una ceremonia, una
+              merienda y un rato para estar todos juntos. ¡No os esperéis un
+              <i>bodorrio</i> convencional!
             </p>
           </div>
 
@@ -109,7 +109,7 @@ export default function Home() {
 
             <img
               src="/fotos/PXL_20260104_162226580(1).jpg"
-              alt="Esteve i Laia"
+              alt="Esteve y Laia"
               className="relative aspect-[4/5] w-full rounded-[2rem] object-cover"
             />
           </div>
@@ -117,7 +117,7 @@ export default function Home() {
       </section>
 
       {/* =========================
-          EL GRAN DIA
+          EL GRAN DÍA
       ========================== */}
       <section
         id="el-dia"
@@ -125,11 +125,11 @@ export default function Home() {
       >
         <div className="mx-auto max-w-4xl text-center">
           <p className="text-sm uppercase tracking-[0.3em] text-[var(--pink)]">
-            El gran dia
+            El gran día
           </p>
 
           <h2 className="mt-4 font-[var(--font-allura)] text-6xl">
-            24 d&apos;abril de 2027
+            24 de abril de 2027
           </h2>
 
           <div className="mx-auto mt-6 h-px w-16 bg-[var(--pink)]" />
@@ -149,14 +149,14 @@ export default function Home() {
               <div className="absolute left-[12.5%] right-[12.5%] top-4 hidden h-px bg-[var(--pink)] opacity-40 sm:block" />
 
               <div className="grid grid-cols-2 gap-y-12 sm:grid-cols-4 sm:gap-0">
-                {/* Recepció */}
+                {/* Recepción */}
                 <div className="relative text-center">
                   <div className="mx-auto flex h-8 w-8 items-center justify-center rounded-full border border-[var(--pink)] bg-[var(--cream)]">
                     <div className="h-2.5 w-2.5 rounded-full bg-[var(--pink)]" />
                   </div>
 
                   <p className="mt-4 font-[var(--font-allura)] text-4xl text-[var(--pink)]">
-                    Recepció
+                    Recepción
                   </p>
 
                   <p className="mt-1 text-lg">
@@ -164,32 +164,32 @@ export default function Home() {
                   </p>
                 </div>
 
-                {/* Cerimònia */}
+                {/* Ceremonia */}
                 <div className="relative text-center">
                   <div className="mx-auto flex h-8 w-8 items-center justify-center rounded-full border border-[var(--pink)] bg-[var(--cream)]">
                     <div className="h-2.5 w-2.5 rounded-full bg-[var(--pink)]" />
                   </div>
 
                   <p className="mt-4 font-[var(--font-allura)] text-4xl text-[var(--pink)]">
-                    Cerimònia
+                    Ceremonia
                   </p>
                 </div>
 
-                {/* Berenar */}
+                {/* Merienda */}
                 <div className="relative text-center">
                   <div className="mx-auto flex h-8 w-8 items-center justify-center rounded-full border border-[var(--pink)] bg-[var(--cream)]">
                     <div className="h-2.5 w-2.5 rounded-full bg-[var(--pink)]" />
                   </div>
 
                   <p className="mt-4 font-[var(--font-allura)] text-4xl text-[var(--pink)]">
-                    Berenar
+                    Merienda
                   </p>
                 </div>
 
                 {/* Final */}
                 <div className="relative text-center">
                   <div className="mx-auto flex h-8 w-8 items-center justify-center rounded-full border border-[var(--pink)] bg-[var(--cream)]">
-                    <div className="h-2.5 w-2.5 rounded-full bg-[var(--pink)]" />
+                    <div className="h-2.5 w-2.5 rounded-full bg-[var(--cream)]" />
                   </div>
 
                   <p className="mt-4 font-[var(--font-allura)] text-4xl text-[var(--pink)]">
@@ -210,7 +210,7 @@ export default function Home() {
           <div className="rotate-[-1deg]">
             <img
               src="/fotos/PXL_20251212_143551336(1).jpg"
-              alt="Esteve i Laia"
+              alt="Esteve y Laia"
               className="aspect-[4/3] w-full rounded-[1.5rem] object-cover shadow-sm"
             />
           </div>
@@ -218,7 +218,7 @@ export default function Home() {
           <div className="rotate-[1deg] md:mt-12">
             <img
               src="/fotos/PXL_20250430_020528060.MP(1).jpg"
-              alt="Esteve i Laia"
+              alt="Esteve y Laia"
               className="aspect-square w-full rounded-[1.5rem] object-cover object-[center_70%] shadow-sm"
             />
           </div>
@@ -226,7 +226,7 @@ export default function Home() {
       </section>
 
       {/* =========================
-          CONFIRMACIÓ
+          CONFIRMACIÓN
       ========================== */}
       <section
         id="confirmar"
@@ -234,34 +234,33 @@ export default function Home() {
       >
         <div className="mx-auto max-w-2xl">
           <p className="font-[var(--font-allura)] text-6xl text-[var(--pink)]">
-            Vens?
+            ¿Vienes?
           </p>
 
           <p className="mt-6 text-lg leading-relaxed">
-            Ens faria molta il·lusió comptar amb tu en aquest dia tan
-            especial.
+            Nos haría mucha ilusión contar contigo en este día tan especial.
           </p>
 
           <a
             href="#"
             className="mt-10 inline-block rounded-full border border-[var(--pink)] px-10 py-3 text-lg tracking-[0.08em] text-[var(--pink)] transition-colors duration-300 hover:bg-[var(--pink)] hover:text-white"
           >
-            Confirmar assistència
+            Confirmar asistencia
           </a>
         </div>
       </section>
 
       {/* =========================
-          INFORMACIÓ PRÀCTICA
+          INFORMACIÓN PRÁCTICA
       ========================== */}
       <section className="bg-[var(--cream-dark)] px-6 py-28">
         <div className="mx-auto max-w-4xl text-center">
           <p className="text-sm uppercase tracking-[0.3em] text-[var(--pink)]">
-            Informació pràctica
+            Información práctica
           </p>
 
           <h2 className="mt-4 font-[var(--font-allura)] text-6xl">
-            Tot el que necessiteu saber
+            Todo lo que necesitáis saber
           </h2>
 
           <div className="mt-14 grid gap-10 text-left sm:grid-cols-2">
@@ -273,53 +272,54 @@ export default function Home() {
               </h3>
 
               <p className="mt-3 leading-relaxed opacity-80">
-                El <i>Dress code</i> que hem assignat és <i>Smart casual</i>.
-                La nostra idea és una vestimenta
-                una mica arreglada però informal i còmoda. Com us podríeu
-                posar per anar a una oficina on voleu causar bona impressió.
+                El <i>Dress code</i> que hemos asignado es <i>Smart casual</i>.
+                Nuestra idea es una vestimenta un poco arreglada pero informal
+                y cómoda. Como os podríais poner para ir a una oficina donde
+                queréis causar buena impresión.
               </p>
 
               <p className="mt-3 leading-relaxed opacity-80">
-                Per a ells: polo o camisa, amb uns pantalons llargs, ja
-                siguin texans o de vestir. Si algú vol portar alguna
-                samarreta o pantalons curts, també serà benvingut
-                (sobretot si la samarreta és de Pokémon).
+                Para ellos: polo o camisa, con unos pantalones largos, ya
+                sean vaqueros o de vestir. Si alguien quiere llevar alguna
+                camiseta o pantalones cortos, también será bienvenido
+                (sobre todo si la camiseta es de Pokémon).
               </p>
 
               <p className="mt-3 leading-relaxed opacity-80">
-                Per a elles: bruses, monos, vestits midi... amb tot el que
-                us faci sentir còmodes. (Insistim: una samarreta de Pokémon
-                ens semblarà molt bona idea també.)
+                Para ellas: blusas, monos, vestidos midi... con todo lo que
+                os haga sentir cómodas. (Insistimos: una camiseta de Pokémon
+                nos parecerá muy buena idea también.)
               </p>
 
               <p className="mt-3 leading-relaxed opacity-80">
-                Pel que fa al calçat, que sigui CÒMODE. El Castell de Papiol
-                té molt temps i caminar per allà podria resultar una prova
-                del <i>Gran Prix</i>. Bambes, sabates... tot és benvingut.
-              </p>
-            </div>
-
-            {/* ALLOTJAMENT */}
-            <div>
-              <h3 className="text-xl">
-                🏨 Allotjament
-              </h3>
-
-              <p className="mt-3 leading-relaxed opacity-80">
-                Pel que fa a l&apos;allotjament, si és necessari ens posarem
-                en contacte amb vosaltres, o ens podeu preguntar vosaltres
-                mateixos per trobar la millor opció.
+                En cuanto al calzado, que sea CÓMODO. El Castell de Papiol
+                tiene mucha historia y caminar por allí podría resultar una
+                prueba del <i>Gran Prix</i>. Zapatillas, zapatos... todo es
+                bienvenido.
               </p>
             </div>
 
-            {/* COM ARRIBAR */}
+            {/* ALOJAMIENTO */}
             <div>
               <h3 className="text-xl">
-                📍 Com arribar
+                🏨 Alojamiento
               </h3>
 
               <p className="mt-3 leading-relaxed opacity-80">
-                En cotxe:
+                En cuanto al alojamiento, si es necesario nos pondremos en
+                contacto con vosotros, o nos podéis preguntar vosotros mismos
+                para encontrar la mejor opción.
+              </p>
+            </div>
+
+            {/* CÓMO LLEGAR */}
+            <div>
+              <h3 className="text-xl">
+                📍 Cómo llegar
+              </h3>
+
+              <p className="mt-3 leading-relaxed opacity-80">
+                En coche:
               </p>
 
               <p className="mt-3 leading-relaxed opacity-80">
@@ -331,15 +331,15 @@ export default function Home() {
               </p>
             </div>
 
-            {/* APARCAMENT */}
+            {/* APARCAMIENTO */}
             <div>
               <h3 className="text-xl">
-                🚗 Aparcament
+                🚗 Aparcamiento
               </h3>
 
               <p className="mt-3 leading-relaxed opacity-80">
-                A Papiol no és difícil aparcar. Trobareu aquests punts per
-                aparcar fàcilment:
+                En Papiol no es difícil aparcar. Encontraréis estos puntos
+                para aparcar fácilmente:
               </p>
 
               <p className="mt-3 leading-relaxed opacity-80">
@@ -351,30 +351,30 @@ export default function Home() {
               </p>
 
               <p className="mt-3 leading-relaxed opacity-80">
-                Després, és un passeig fins al castell. El calçat còmode
-                també us anirà bé per a aquest moment. 😛
+                Después, es un paseo hasta el castillo. El calzado cómodo
+                también os irá bien para este momento. 😛
               </p>
             </div>
 
-            {/* REGAL */}
+            {/* REGALO */}
             <div>
               <h3 className="text-xl">
-                🎁 Regal
+                🎁 Regalo
               </h3>
 
               <p className="mt-3 leading-relaxed opacity-80">
-                En ser una celebració tan curta, no volem que us sentiu
-                obligats a fer cap regal.
+                Al ser una celebración tan corta, no queremos que os sintáis
+                obligados a hacer ningún regalo.
               </p>
 
               <p className="mt-3 leading-relaxed opacity-80">
-                El regal més gran per a nosaltres és que vingueu a compartir
-                aquesta estona amb nosaltres.
+                El regalo más grande para nosotros es que vengáis a compartir
+                este rato con nosotros.
               </p>
 
               <p className="mt-3 leading-relaxed opacity-80">
-                Si encara així voleu fer un regal, agrairíem que fos en
-                efectiu aquell dia o els dies previs.
+                Si aun así queréis hacer un regalo, agradeceríamos que fuera
+                en efectivo ese día o los días previos.
               </p>
             </div>
           </div>
@@ -393,11 +393,11 @@ export default function Home() {
 
         <div className="relative z-10 flex flex-col items-center">
           <p className="font-[var(--font-allura)] text-6xl text-[var(--pink)]">
-            Ens veiem el 24 d&apos;abril!
+            ¡Nos vemos el 24 de abril!
           </p>
 
           <p className="mt-6 text-lg">
-            Amb molta il·lusió,
+            Con mucha ilusión,
           </p>
 
           <p className="mt-2 font-[var(--font-allura)] text-4xl">
