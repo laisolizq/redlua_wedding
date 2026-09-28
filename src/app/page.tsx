@@ -26,13 +26,13 @@ export default function Home() {
 
         {/* Sakura decorativa */}
         <img
-          src="/sakura/ChatGPT Image Sep 26, 2026, 06_44_53 PM-2.png"
+          src="/redlua_wedding/sakura/ChatGPT Image Sep 26, 2026, 06_44_53 PM-2.png"
           alt=""
           className="pointer-events-none absolute left-0 top-0 w-[85%] max-w-[520px] -translate-x-[12%] -translate-y-[8%] opacity-50"
         />
 
         <img
-          src="/sakura/ChatGPT Image Sep 26, 2026, 06_44_55 PM-4.png"
+          src="/redlua_wedding/sakura/ChatGPT Image Sep 26, 2026, 06_44_55 PM-4.png"
           alt=""
           className="pointer-events-none absolute bottom-0 right-0 w-[70%] max-w-[380px] translate-x-[18%] translate-y-[12%] rotate-[340deg] opacity-50"
         />
@@ -108,7 +108,7 @@ export default function Home() {
             <div className="absolute -inset-3 rounded-[2rem] border border-[var(--pink)] opacity-30" />
 
             <img
-              src="/fotos/PXL_20260104_162226580(1).jpg"
+              src="/redlua_wedding/fotos/PXL_20260104_162226580(1).jpg"
               alt="Esteve i Laia"
               className="relative aspect-[4/5] w-full rounded-[2rem] object-cover"
             />
@@ -209,7 +209,7 @@ export default function Home() {
         <div className="mx-auto mt-16 grid max-w-5xl gap-8 md:grid-cols-2">
           <div className="rotate-[-1deg]">
             <img
-              src="/fotos/PXL_20251212_143551336(1).jpg"
+              src="/redlua_wedding/fotos/PXL_20251212_143551336(1).jpg"
               alt="Esteve i Laia"
               className="aspect-[4/3] w-full rounded-[1.5rem] object-cover shadow-sm"
             />
@@ -217,7 +217,7 @@ export default function Home() {
 
           <div className="rotate-[1deg] md:mt-12">
             <img
-              src="/fotos/PXL_20250430_020528060.MP(1).jpg"
+              src="/redlua_wedding/fotos/PXL_20250430_020528060.MP(1).jpg"
               alt="Esteve i Laia"
               className="aspect-square w-full rounded-[1.5rem] object-cover object-[center_70%] shadow-sm"
             />
@@ -386,7 +386,7 @@ export default function Home() {
       ========================== */}
       <footer className="relative overflow-hidden px-6 py-28 text-center">
         <img
-          src="/sakura/ChatGPT Image Sep 26, 2026, 06_44_52 PM-1.png"
+          src="/redlua_wedding/sakura/ChatGPT Image Sep 26, 2026, 06_44_52 PM-1.png"
           alt=""
           className="pointer-events-none absolute bottom-0 left-1/5 w-[500px] max-w-none -translate-x-1/2 translate-y-[45%] opacity-30"
         />
