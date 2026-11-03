@@ -6,7 +6,7 @@ export default function Home() {
       ========================== */}
       <section className="relative flex min-h-screen flex-col items-center justify-center px-6 py-16 text-center">
         {/* Selector d'idioma */}
-        <div className="absolute right-6 top-6 z-20 text-sm tracking-[0.15em]">
+        <div className="absolute right-6 top-6 z-20 text-base sm:text-sm tracking-[0.15em]">
           <a
             href="/redlua_wedding"
             className="font-semibold text-[var(--pink)]"
@@ -72,24 +72,24 @@ export default function Home() {
               Benvinguts!
             </p>
 
-            <p className="mt-8 text-lg leading-relaxed">
+            <p className="mt-8 text-xl sm:text-lg leading-relaxed">
               Ha arribat el dia de celebrar un esdeveniment molt important
               per a nosaltres, i ens encantaria fer-ho amb tots vosaltres.
             </p>
 
-            <p className="mt-5 text-lg leading-relaxed">
+            <p className="mt-5 text-xl sm:text-lg leading-relaxed">
               Com bé sabeu, som una parella una mica &quot;peculiar&quot;,
               així que el nostre casament, com no podia ser d&apos;una altra
               manera, no serà del tot tradicional.
             </p>
 
-            <p className="mt-5 text-lg leading-relaxed">
+            <p className="mt-5 text-xl sm:text-lg leading-relaxed">
               Hem decidit fer una celebració curta i emotiva, on compartirem
               amb les persones que més estimem una estoneta per recordar
               moments i celebrar la nostra unió.
             </p>
 
-            <p className="mt-5 text-lg leading-relaxed">
+            <p className="mt-5 text-xl sm:text-lg leading-relaxed">
               És per això que serà un esdeveniment d&apos;una tarda: amb una
               cerimònia, un berenar i una estona per estar tots junts.
               No us espereu un <i>bodorrio</i> convencional!
@@ -117,7 +117,7 @@ export default function Home() {
         className="relative bg-[var(--cream-dark)] px-6 py-28"
       >
         <div className="mx-auto max-w-4xl text-center">
-          <p className="text-sm uppercase tracking-[0.3em] text-[var(--pink)]">
+          <p className="text-base sm:text-sm uppercase tracking-[0.3em] text-[var(--pink)]">
             El gran dia
           </p>
 
@@ -289,17 +289,17 @@ export default function Home() {
             Vens?
           </p>
 
-          <p className="mt-6 text-lg leading-relaxed">
+          <p className="mt-6 text-xl sm:text-lg leading-relaxed">
             Us demanem que confirmeu l&apos;assistència abans del 27 de gener de 2027, per poder organitzar-ho tot millor. Ho podeu fer via WhatsApp/Telegram a qualsevol de nosaltres dos.
           </p>
 
-          <p className="mt-6 text-lg leading-relaxed">
+          <p className="mt-6 text-xl sm:text-lg leading-relaxed">
             Quan confirmeu l&apos;assistència, indiqueu-nos també si teniu
             alguna al·lèrgia, intolerància o altra necessitat alimentària,
             com ara una dieta vegetariana o vegana, perquè ho puguem tenir en compte.
           </p>
 
-          <p className="mt-6 text-lg leading-relaxed">
+          <p className="mt-6 text-xl sm:text-lg leading-relaxed">
             Ens faria molta il·lusió comptar amb tu en aquest dia tan
             especial. 😊
           </p>
@@ -311,7 +311,7 @@ export default function Home() {
       ========================== */}
       <section className="bg-[var(--cream-dark)] px-6 py-28">
         <div className="mx-auto max-w-4xl text-center">
-          <p className="text-sm uppercase tracking-[0.3em] text-[var(--pink)]">
+          <p className="text-base sm:text-sm uppercase tracking-[0.3em] text-[var(--pink)]">
             Informació pràctica
           </p>
 
@@ -323,31 +323,31 @@ export default function Home() {
 
             {/* DRESS CODE */}
             <div>
-              <h3 className="text-xl">
+              <h3 className="text-2xl sm:text-xl">
                 👗 Dress code
               </h3>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 El <i>dress code</i> que hem escollit és <i>smart casual</i>.
                 La nostra idea és una vestimenta
                 una mica arreglada però informal i còmoda. Com la que us podríeu
                 posar per anar a una oficina on voleu causar bona impressió.
               </p>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 Per a ells: polo o camisa, amb uns pantalons llargs, ja
                 siguin texans o de vestir. Si algú vol portar alguna
                 samarreta o pantalons curts, també serà benvingut
                 (sobretot si la samarreta és de Pokémon).
               </p>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 Per a elles: bruses, monos, vestits midi... amb tot el que
                 us faci sentir còmodes. (Insistim: una samarreta de Pokémon
                 ens semblarà molt bona idea també.)
               </p>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 Pel que fa al calçat, que sigui CÒMODE. El Castell del Papiol
                 té molt temps i caminar per allà podria resultar una prova
                 del <i>Grand Prix</i>. Bambes, sabates... tot és benvingut.
@@ -356,32 +356,32 @@ export default function Home() {
 
             {/* ALLOTJAMENT */}
             <div>
-              <h3 className="text-xl">
+              <h3 className="text-2xl sm:text-xl">
                 🏨 Allotjament
               </h3>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 Pel que fa a l&apos;allotjament, si és necessari ens posarem
                 en contacte amb vosaltres, o ens podeu preguntar vosaltres
                 mateixos per trobar la millor opció.
               </p>
               <br />
               {/* REGAL */}
-              <h3 className="text-xl">
+              <h3 className="text-2xl sm:text-xl">
                 🎁 Regal
               </h3>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 En ser una celebració tan curta, no volem que us sentiu
                 obligats a fer cap regal.
               </p>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 El regal més gran per a nosaltres és que vingueu a compartir
                 aquesta estona amb nosaltres.
               </p>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 Si tot i així voleu fer un regal, agrairíem que fos en
                 efectiu aquell dia o els dies previs.
               </p>
@@ -389,26 +389,26 @@ export default function Home() {
 
             {/* COM ARRIBAR */}
             <div>
-              <h3 className="text-xl">
+              <h3 className="text-2xl sm:text-xl">
                 📍 Com arribar
               </h3>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                  🏰 Aquesta és la ubicació del Castell del Papiol: <a href="https://maps.app.goo.gl/Ndqxbb6SksCudRDJ8" className="text-[var(--pink)] hover:underline">Enllaç</a>
               </p>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 🚗 En cotxe: A la secció següent trobareu on podeu aparcar fàcilment.
               </p>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 🚍 En autobús: <br />
                 Aquí teniu la informació de la línia L67: <a href="https://horaris.gruptg.com/tgo/?linia=L67" className="text-[var(--pink)] hover:underline">Enllaç</a> <br />
                 Per horaris, podeu agafar a Francesc Macià el que surt a les 16.00.<br />
                 La tornada haurà de ser en tren o en algun altre mitjà de transport.
               </p>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 🚇 En tren: <br />
                 La línia que passa pel Papiol és la R4: <a href="https://rodalies.gencat.cat/web/.content/02_Horaris/horaris/R4.pdf" className="text-[var(--pink)] hover:underline">Horaris PDF</a>. <br />
                 Després, podeu caminar (però avisem que fareu gana i nosaltres hem pensat només en un berenar) o agafar la línia del bus del Papiol que us puja fins al castell. Hi ha dues opcions:<br />
@@ -420,28 +420,28 @@ export default function Home() {
 
             {/* APARCAMENT */}
             <div>
-              <h3 className="text-xl">
+              <h3 className="text-2xl sm:text-xl">
                 🚗 Aparcament
               </h3>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 Al Papiol no és difícil aparcar. Trobareu aquests punts per
                 aparcar fàcilment, però podeu aparcar a tot el poble:
               </p>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 - <a href="https://maps.app.goo.gl/5p2Xke78NB9rBeZW8?g_st=atm" className="text-[var(--pink)] hover:underline">Aparcament a Anselm Clavé</a>
               </p>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 - <a href="https://maps.app.goo.gl/W7Y7iL6vrnRM1efd6?g_st=atm" className="text-[var(--pink)] hover:underline">Aparcament a la biblioteca</a>
               </p>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 - <a href="https://maps.app.goo.gl/beXBjkkPo3iVNokv5?g_st=atm" className="text-[var(--pink)] hover:underline">Aparcament a l&apos;avinguda de la Generalitat</a>
               </p>
 
-              <p className="mt-3 leading-relaxed opacity-80">
+              <p className="mt-3 text-xl leading-relaxed opacity-80 sm:text-base">
                 Després, és un passeig fins al castell. El calçat còmode
                 també us anirà bé per a aquest moment. 😛 <br />
                 Calculeu uns 10-15 min caminant fins al castell.
@@ -466,7 +466,7 @@ export default function Home() {
             Ens veiem el 24 d&apos;abril!
           </p>
 
-          <p className="mt-6 text-lg">
+          <p className="mt-6 text-xl sm:text-lg">
             Amb molta il·lusió,
           </p>
 
