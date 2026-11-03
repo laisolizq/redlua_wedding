@@ -294,6 +294,12 @@ export default function Home() {
           </p>
 
           <p className="mt-6 text-lg leading-relaxed">
+            Quan confirmeu l&apos;assistència, indiqueu-nos també si teniu
+            alguna al·lèrgia, intolerància o altra necessitat alimentària,
+            com ara una dieta vegetariana o vegana, perquè ho puguem tenir en compte.
+          </p>
+
+          <p className="mt-6 text-lg leading-relaxed">
             Ens faria molta il·lusió comptar amb tu en aquest dia tan
             especial. 😊
           </p>
