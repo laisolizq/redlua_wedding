@@ -37,8 +37,8 @@ export default function Home() {
           className="pointer-events-none absolute bottom-0 right-0 w-[55%] max-w-[380px] translate-x-[18%] translate-y-[12%] rotate-[330deg] opacity-50"
         />
 
-        <div className="relative z-10 flex max-w-xl -translate-y-6 flex-col items-center">
-          <p className="mb-6 text-sm uppercase tracking-[0.35em] text-[var(--pink)]">
+        <div className="relative -translate-y-6 z-10 flex max-w-xl flex-col items-center">
+          <p className="mb-6 text-xl uppercase tracking-[0.35em] text-[var(--pink)]">
             ¡NOS CASAMOS!
           </p>
 
@@ -53,15 +53,8 @@ export default function Home() {
           </p>
 
           <p className="mt-3 text-2xl italic">
-            El Castell de Papiol
+            El Castell del Papiol
           </p>
-
-          <a
-            href="#el-dia"
-            className="mt-12 rounded-full border border-[var(--pink)] px-8 py-3 text-lg tracking-[0.08em] text-[var(--pink)] transition-colors duration-300 hover:bg-[var(--pink)] hover:text-white"
-          >
-            Descubre nuestro día
-          </a>
         </div>
 
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-[var(--pink)]">
@@ -86,20 +79,20 @@ export default function Home() {
 
             <p className="mt-5 text-lg leading-relaxed">
               Como bien sabéis, somos una pareja un poco &quot;peculiar&quot;,
-              así que nuestra boda, como no podía ser de otra manera, no será
-              tradicional.
+              así que nuestra boda, como no podía ser de otra
+              manera, no será del todo tradicional.
             </p>
 
             <p className="mt-5 text-lg leading-relaxed">
-              Hemos decidido hacer una celebración corta y emotiva, donde
-              compartiremos con las personas que más queremos un ratito para
-              recordar momentos y celebrar nuestra unión.
+              Hemos decidido hacer una celebración corta y emotiva, en la que compartiremos
+              con las personas que más queremos un ratito para recordar
+              momentos y celebrar nuestra unión.
             </p>
 
             <p className="mt-5 text-lg leading-relaxed">
-              Es por eso que será un evento de una tarde: con una ceremonia,
-              una merienda y un rato para estar todos juntos. ¡No esperéis un
-              <i>bodorrio</i> convencional!
+              Por eso será un evento de una tarde: con una
+              ceremonia, una merienda y un rato para estar todos juntos.
+              ¡No esperéis un <i>bodorrio</i> convencional!
             </p>
           </div>
 
@@ -129,17 +122,13 @@ export default function Home() {
           </p>
 
           <h2 className="mt-4 font-[var(--font-allura)] text-6xl">
-            24 de abril de 2027
+            24 de Abril de 2027
           </h2>
 
           <div className="mx-auto mt-6 h-px w-16 bg-[var(--pink)]" />
 
           <p className="mt-8 text-xl">
-            El Castell de Papiol
-          </p>
-
-          <p className="mt-2 text-base opacity-70">
-            El Papiol, Barcelona
+            El Castell del Papiol
           </p>
 
           {/* Timeline */}
@@ -190,6 +179,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
+
 
             {/* DESKTOP */}
             <div className="relative hidden sm:block">
@@ -261,12 +251,11 @@ export default function Home() {
                   <p className="font-[var(--font-allura)] text-4xl text-[var(--pink)]">
                     Final
                   </p>
+                  </div>
                 </div>
-
               </div>
             </div>
           </div>
-        </div>
 
         {/* Fotos */}
         <div className="mx-auto mt-16 grid max-w-5xl gap-8 md:grid-cols-2">
@@ -301,15 +290,13 @@ export default function Home() {
           </p>
 
           <p className="mt-6 text-lg leading-relaxed">
-            Nos haría mucha ilusión contar contigo en este día tan especial.
+            Os pedimos que confirméis la asistencia antes del 27 de enero de 2027, para poder organizarlo todo mejor. Podéis hacerlo por WhatsApp/Telegram a cualquiera de nosotros dos.
           </p>
 
-          <a
-            href="#"
-            className="mt-10 inline-block rounded-full border border-[var(--pink)] px-10 py-3 text-lg tracking-[0.08em] text-[var(--pink)] transition-colors duration-300 hover:bg-[var(--pink)] hover:text-white"
-          >
-            Confirmar asistencia
-          </a>
+          <p className="mt-6 text-lg leading-relaxed">
+            Nos haría mucha ilusión contar contigo en este día tan
+            especial. 😊
+          </p>
         </div>
       </section>
 
@@ -335,10 +322,10 @@ export default function Home() {
               </h3>
 
               <p className="mt-3 leading-relaxed opacity-80">
-                El <i>Dress code</i> que hemos asignado es <i>Smart casual</i>.
-                La idea es una vestimenta un poco arreglada pero informal y
-                cómoda. Como os podríais poner para ir a una oficina donde
-                queréis causar buena impresión.
+                El <i>dress code</i> que hemos elegido es <i>smart casual</i>.
+                Nuestra idea es una vestimenta
+                un poco arreglada pero informal y cómoda. Como la que os podríais
+                poner para ir a una oficina donde queréis causar buena impresión.
               </p>
 
               <p className="mt-3 leading-relaxed opacity-80">
@@ -355,10 +342,9 @@ export default function Home() {
               </p>
 
               <p className="mt-3 leading-relaxed opacity-80">
-                En cuanto al calzado, que sea CÓMODO. El Castell de Papiol
-                tiene mucha historia y caminar por allí podría resultar una
-                prueba del <i>Gran Prix</i>. Bambas, zapatos... todo es
-                bienvenido.
+                En cuanto al calzado, que sea CÓMODO. El Castell del Papiol
+                es muy antiguo y caminar por allí podría resultar una prueba
+                del <i>Grand Prix</i>. Zapatillas, zapatos... todo es bienvenido.
               </p>
             </div>
 
@@ -369,58 +355,12 @@ export default function Home() {
               </h3>
 
               <p className="mt-3 leading-relaxed opacity-80">
-                En cuanto al alojamiento, si es necesario nos pondremos en
-                contacto con vosotros, o podéis preguntarnos vosotros mismos
-                para encontrar la mejor opción.
+                En cuanto al alojamiento, si es necesario nos pondremos
+                en contacto con vosotros, o podéis preguntarnos vosotros
+                mismos para encontrar la mejor opción.
               </p>
-            </div>
-
-            {/* CÓMO LLEGAR */}
-            <div>
-              <h3 className="text-xl">
-                📍 Cómo llegar
-              </h3>
-
-              <p className="mt-3 leading-relaxed opacity-80">
-                En coche:
-              </p>
-
-              <p className="mt-3 leading-relaxed opacity-80">
-                En autobús:
-              </p>
-
-              <p className="mt-3 leading-relaxed opacity-80">
-                En tren:
-              </p>
-            </div>
-
-            {/* APARCAMIENTO */}
-            <div>
-              <h3 className="text-xl">
-                🚗 Aparcamiento
-              </h3>
-
-              <p className="mt-3 leading-relaxed opacity-80">
-                En Papiol no es difícil aparcar. Encontraréis estos puntos
-                para aparcar fácilmente:
-              </p>
-
-              <p className="mt-3 leading-relaxed opacity-80">
-                Parking 1:
-              </p>
-
-              <p className="mt-3 leading-relaxed opacity-80">
-                Parking 2:
-              </p>
-
-              <p className="mt-3 leading-relaxed opacity-80">
-                Después, es un paseo hasta el castillo. El calzado cómodo
-                también os irá bien para este momento. 😛
-              </p>
-            </div>
-
-            {/* REGALO */}
-            <div>
+              <br />
+              {/* REGALO */}
               <h3 className="text-xl">
                 🎁 Regalo
               </h3>
@@ -436,11 +376,71 @@ export default function Home() {
               </p>
 
               <p className="mt-3 leading-relaxed opacity-80">
-                Si aun así queréis hacer un regalo, agradeceríamos que fuera
-                en efectivo ese día o los días previos.
+                Si aun así queréis hacer un regalo, agradeceríamos que fuera en
+                efectivo ese día o los días previos.
               </p>
             </div>
 
+            {/* CÓMO LLEGAR */}
+            <div>
+              <h3 className="text-xl">
+                📍 Cómo llegar
+              </h3>
+
+              <p className="mt-3 leading-relaxed opacity-80">
+                 🏰 Esta es la ubicación del Castell del Papiol: <a href="https://maps.app.goo.gl/Ndqxbb6SksCudRDJ8" className="text-[var(--pink)] hover:underline">Enlace</a>
+              </p>
+
+              <p className="mt-3 leading-relaxed opacity-80">
+                🚗 En coche: En la siguiente sección encontraréis dónde podéis aparcar fácilmente.
+              </p>
+
+              <p className="mt-3 leading-relaxed opacity-80">
+                🚍 En autobús: <br />
+                Aquí tenéis la información de la línea L67: <a href="https://horaris.gruptg.com/tgo/?linia=L67" className="text-[var(--pink)] hover:underline">Enlace</a> <br />
+                Por horarios, podéis coger en Francesc Macià el que sale a las 16.00.<br />
+                La vuelta tendrá que ser en tren o en algún otro medio de transporte.
+              </p>
+
+              <p className="mt-3 leading-relaxed opacity-80">
+                🚇 En tren: <br />
+                La línea que pasa por El Papiol es la R4: <a href="https://rodalies.gencat.cat/web/.content/02_Horaris/horaris/R4.pdf" className="text-[var(--pink)] hover:underline">Horarios PDF</a>. <br />
+                Después, podéis caminar (pero avisamos de que os entrará hambre y nosotros hemos pensado solo en una merienda) o coger la línea del autobús de El Papiol que os lleva hasta el castillo. Hay dos opciones:<br />
+                  - PA1: <a href="https://www.elpapiol.cat/themes/mobilitat/horariPA1.pdf" className="text-[var(--pink)] hover:underline">Horarios</a> <br />
+                  - PA2: <a href="https://www.elpapiol.cat/themes/mobilitat/horariPA2.pdf" className="text-[var(--pink)] hover:underline">Horarios</a> <br />
+
+              </p>
+            </div>
+
+            {/* APARCAMIENTO */}
+            <div>
+              <h3 className="text-xl">
+                🚗 Aparcamiento
+              </h3>
+
+              <p className="mt-3 leading-relaxed opacity-80">
+                En El Papiol no es difícil aparcar. Encontraréis estos puntos para
+                aparcar fácilmente, pero podéis aparcar por todo el pueblo:
+              </p>
+
+              <p className="mt-3 leading-relaxed opacity-80">
+                - <a href="https://maps.app.goo.gl/5p2Xke78NB9rBeZW8?g_st=atm" className="text-[var(--pink)] hover:underline">Aparcamiento en Anselm Clavé</a>
+              </p>
+
+              <p className="mt-3 leading-relaxed opacity-80">
+                - <a href="https://maps.app.goo.gl/W7Y7iL6vrnRM1efd6?g_st=atm" className="text-[var(--pink)] hover:underline">Aparcamiento en la biblioteca</a>
+              </p>
+
+              <p className="mt-3 leading-relaxed opacity-80">
+                - <a href="https://maps.app.goo.gl/beXBjkkPo3iVNokv5?g_st=atm" className="text-[var(--pink)] hover:underline">Aparcamiento en la avenida de la Generalitat</a>
+              </p>
+
+              <p className="mt-3 leading-relaxed opacity-80">
+                Después, es un paseo hasta el castillo. El calzado cómodo
+                también os irá bien para este momento. 😛 <br />
+                Calculad unos 10-15 min caminando hasta el castillo.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -452,7 +452,7 @@ export default function Home() {
         <img
           src="/redlua_wedding/sakura/ChatGPT Image Sep 26, 2026, 06_44_52 PM-1.png"
           alt=""
-          className="pointer-events-none absolute bottom-0 left-1/5 w-[300px] max-w-none -translate-x-1/2 translate-y-[30%] rotate-[35deg] opacity-30"
+          className="pointer-events-none absolute bottom-0 left-1/5 w-[300px] max-w-none -translate-x-1/2 translate-y-[30%] opacity-30 rotate-[35deg]"
         />
 
         <div className="relative z-10 flex flex-col items-center">
@@ -467,6 +467,12 @@ export default function Home() {
           <p className="mt-2 font-[var(--font-allura)] text-4xl">
             Esteve &amp; Laia
           </p>
+
+          <img
+            src="/logo_el_negre.png"
+            alt=""
+            className="mx-auto mt-5 w-10"
+          />
         </div>
       </footer>
     </main>
