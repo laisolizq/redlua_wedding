@@ -17,7 +17,8 @@ export default function Home() {
           <span className="mx-2 opacity-40">|</span>
 
           <a
-            href="/redlua_wedding/es/"
+            href="/redlua_wedding/es"
+            aria-current="page"
             className="font-semibold text-[var(--pink)]"
           >
             ES
