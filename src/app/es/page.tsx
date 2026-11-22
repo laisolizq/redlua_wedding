@@ -153,7 +153,7 @@ export default function Home() {
               {/* Ceremonia */}
               <div className="text-center">
                 <p className="font-[var(--font-allura)] text-4xl text-[var(--pink)]">
-                  Ceremonia
+                  Ceremonia*
                 </p>
               </div>
 
