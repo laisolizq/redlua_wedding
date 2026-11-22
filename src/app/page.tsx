@@ -217,7 +217,7 @@ export default function Home() {
                   </div>
 
                   <p className="font-[var(--font-allura)] text-4xl text-[var(--pink)]">
-                    Cerimònia
+                    Cerimònia*
                   </p>
                 </div>
 
@@ -254,6 +254,11 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+
+              <p className="mt-5 text-xl sm:text-lg leading-relaxed">
+                <span className="text-[var(--pink)]">*</span>
+                  Si voleu fer un petit discurs aquest es el vostre moment. Feu-nos-ho saber amb antelació!
+              </p>
             </div>
           </div>
 
@@ -290,13 +295,8 @@ export default function Home() {
           </p>
 
           <p className="mt-6 text-xl sm:text-lg leading-relaxed">
-            Us demanem que confirmeu l&apos;assistència abans del 27 de gener de 2027, per poder organitzar-ho tot millor. Ho podeu fer via WhatsApp/Telegram a qualsevol de nosaltres dos.
-          </p>
-
-          <p className="mt-6 text-xl sm:text-lg leading-relaxed">
-            Quan confirmeu l&apos;assistència, indiqueu-nos també si teniu
-            alguna al·lèrgia, intolerància o altra necessitat alimentària,
-            com ara una dieta vegetariana o vegana, perquè ho puguem tenir en compte.
+            Us demanem que confirmeu l&apos;assistència abans del 27 de gener de 2027. Ho podeu fer via WhatsApp/Telegram a qualsevol de nosaltres dos.
+            Indiqueu-nos si veniu <strong>acompanyats</strong> i si teniu alguna <strong>restricció alimentària</strong>.
           </p>
 
           <p className="mt-6 text-xl sm:text-lg leading-relaxed">
